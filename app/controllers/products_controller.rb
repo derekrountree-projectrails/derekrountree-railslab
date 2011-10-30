@@ -1,4 +1,4 @@
-class ProductsController < ApplicationController
+giclass ProductsController < ApplicationController
   # GET /products
   # GET /products.json
   def index
@@ -80,4 +80,4 @@ class ProductsController < ApplicationController
       format.json { head :ok }
     end
   end
-end
+end 
